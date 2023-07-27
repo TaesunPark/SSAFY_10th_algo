@@ -1,7 +1,11 @@
 # SSAFY_10th_algo
 대전 싸피 8반 알고리즘 스터디입니다.
 
-
+## 2023.07.26~2023.08.01
+1. [[BOJ] 2304. 창고 다각형](https://www.acmicpc.net/problem/2304)
+2. [[BOJ] 2910. 빈도 정렬](https://www.acmicpc.net/problem/2910)
+3. [[BOJ] 2491. 수열](https://www.acmicpc.net/problem/2491)
+4. [[BOJ] 11055. 가장 큰 증가하는 부분 수열](https://www.acmicpc.net/problem/11055)
 
 ## 2023.07.19~2023.07.25
 1. [[SWEA] 15941. 평행사변형](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AYVgOZEKOpcDFAQK)
