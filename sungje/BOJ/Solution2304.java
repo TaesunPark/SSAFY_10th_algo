@@ -3,7 +3,7 @@ package algo_study;
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class Solution2304 {
 
 	static int calculation(int[][] arr, int maxHeight) {
 		int curRow = arr[0][0], curCol = arr[0][1], returnVal = 0;

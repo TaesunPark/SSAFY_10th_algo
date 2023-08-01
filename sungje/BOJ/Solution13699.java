@@ -2,7 +2,7 @@ package algo_study;
 
 import java.io.*;
 
-public class BOJ13699 {
+public class Solution13699 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader bfReader = new BufferedReader(new InputStreamReader(System.in));
 
