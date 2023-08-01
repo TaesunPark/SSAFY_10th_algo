@@ -3,7 +3,7 @@
 
 ## 2023.08.02~2023.08.08
 1. [[BOJ] 1935. 후위 표기식2](https://www.acmicpc.net/problem/1935)
-2. [[BOJ] 16493. 최대 페이지 수](https://www.acmicpc.net/problem/16493)
+2. [[BOJ] 24060. 알고리즘 수업 - 병합 정렬 1](https://www.acmicpc.net/problem/24060)
 3. [[BOJ] 2559. 수열](https://www.acmicpc.net/problem/2559)
 4. [[BOJ] 2468. 안전 영역](https://www.acmicpc.net/problem/2468)
 
