@@ -1,3 +1,5 @@
+package algoSWEA;
+
 import java.io.*;
 
 public class Solution15941 {

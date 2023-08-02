@@ -1,4 +1,4 @@
-package algo_study;
+package algoSWEA;
 
 import java.io.*;
 import java.util.*;
