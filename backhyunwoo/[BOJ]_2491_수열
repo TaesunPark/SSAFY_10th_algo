@@ -1,0 +1,57 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class BOJ_2491_수열 {
+    public static void main(String[] args) throws IOException {
+
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    StringTokenizer st = new StringTokenizer(br.readLine());
+    int n = Integer.parseInt(st.nextToken());
+    int[] m = new int [n];
+    int max=1;
+    int sum1=0;
+    int sum2=0;
+    int min=1;
+    st = new StringTokenizer(br.readLine());
+    for(int i=0;i<n;i++) {
+        m[i]=Integer.parseInt(st.nextToken());
+        if(i>0&&m[i-1]<=m[i]) {
+            max++;
+        }
+        else {
+            if(sum1<max){
+                sum1=max;
+            }
+            max=1;
+        }
+        if(i>0&&m[i-1]>=m[i]) {
+            
+            min++;
+        }
+        else {
+            if(sum2<min){
+                sum2=min;
+            }
+            min=1;
+        }
+    }
+    if(sum1<max){
+        sum1=max;
+    }
+    if(sum2<min){
+        sum2=min;
+    }
+    if(sum2<=sum1&&sum1>2) {
+        System.out.println(sum1);
+    }else if(sum2>sum1&&sum2>2) {
+        System.out.println(sum2);
+    }else if(sum2==1&&sum1==1) {
+        System.out.println(1);
+    }
+    else {
+        System.out.println(2);
+    }
+}
+}
