@@ -1,7 +1,7 @@
 # SSAFY_10th_algo
 대전 싸피 8반 알고리즘 스터디입니다.
 
-## 2023.08.02~2023.08.08
+## 2023.08.09~2023.08.15
 1. [[BOJ] 16637. 괄호 추가하기](https://www.acmicpc.net/problem/16637)
 2. [[BOJ] 17070. 파이프 옮기기](https://www.acmicpc.net/problem/17070)
 3. [[BOJ] 15903. 카드 합체 놀이](https://www.acmicpc.net/problem/15903)
