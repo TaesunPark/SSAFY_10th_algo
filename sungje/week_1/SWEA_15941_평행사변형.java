@@ -1,8 +1,8 @@
-package algoSWEA;
+package sungje.week_1;
 
 import java.io.*;
 
-public class Solution15941 {
+public class SWEA_15941_평행사변형 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader bfReader = new BufferedReader(new InputStreamReader(System.in));
 		

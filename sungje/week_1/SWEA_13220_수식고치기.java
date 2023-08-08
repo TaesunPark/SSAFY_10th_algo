@@ -1,9 +1,9 @@
-package algoSWEA;
+package sungje.week_1;
 
 import java.io.*;
 import java.util.*;
 
-public class Solution13220 {
+public class SWEA_13220_수식고치기 {
 
 	static char decodingString(char input, char changeTo) {
 		if (input == 'x') {
