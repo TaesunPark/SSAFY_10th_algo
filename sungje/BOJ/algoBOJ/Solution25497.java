@@ -1,4 +1,4 @@
-package algo_study;
+package algoBOJ;
 
 import java.io.*;
 

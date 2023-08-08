@@ -1,8 +1,8 @@
-package algo_study;
+package sungje.week_1;
 
 import java.io.*;
 
-public class Solution13699 {
+public class BOJ_13699_점화식 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader bfReader = new BufferedReader(new InputStreamReader(System.in));
 

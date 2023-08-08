@@ -1,7 +1,9 @@
+package sungje.week_2;
+
 import java.io.*;
 import java.util.*;
 
-public class Solution2910 {
+public class BOJ_2910_빈도정렬 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader bfReader = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer stToken = new StringTokenizer(bfReader.readLine());
