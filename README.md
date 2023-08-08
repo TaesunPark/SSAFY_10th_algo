@@ -2,6 +2,12 @@
 대전 싸피 8반 알고리즘 스터디입니다.
 
 ## 2023.08.02~2023.08.08
+1. [[BOJ] 16637. 괄호 추가하기](https://www.acmicpc.net/problem/16637)
+2. [[BOJ] 17070. 파이프 옮기기](https://www.acmicpc.net/problem/17070)
+3. [[BOJ] 15903. 카드 합체 놀이](https://www.acmicpc.net/problem/15903)
+4. [[BOJ] 16395. 파스칼의 삼각형](https://www.acmicpc.net/problem/16395)
+
+## 2023.08.02~2023.08.08
 1. [[BOJ] 1935. 후위 표기식2](https://www.acmicpc.net/problem/1935)
 2. [[BOJ] 24060. 알고리즘 수업 - 병합 정렬 1](https://www.acmicpc.net/problem/24060)
 3. [[BOJ] 2559. 수열](https://www.acmicpc.net/problem/2559)
