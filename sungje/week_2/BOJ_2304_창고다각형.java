@@ -1,9 +1,9 @@
-package algoBOJ;
+package sungje.week_2;
 
 import java.io.*;
 import java.util.*;
 
-public class Solution2304 {
+public class BOJ_2304_창고다각형 {
 
 	static int calculation(int[][] arr, int maxHeight) {
 		int curRow = arr[0][0], curCol = arr[0][1], returnVal = 0;
