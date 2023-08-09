@@ -1,0 +1,64 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class BOJ_2468_안전영역 {
+	static int[][] map;
+	static int[][] map2;
+	static int n;
+	static int cnt;
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		st = new StringTokenizer(br.readLine());
+		n = Integer.parseInt(st.nextToken());
+		map = new int[n][n];
+		map2 = new int[n][n];
+		int sum=0;
+		int hmax=0;
+		int smax=0;
+		for (int i = 0; i < n; i++) {
+			st = new StringTokenizer(br.readLine());
+			for (int j = 0; j < n; j++) {
+				map[i][j] = Integer.parseInt(st.nextToken());
+				if(hmax<map[i][j]) {
+					hmax=map[i][j];
+				}
+			}
+		}
+		for (int k = 0; k < hmax; k++) {
+			for (int i = 0; i < n; i++) {
+				for (int j = 0; j < n; j++) {
+					map2[i][j] = map[i][j];
+				}
+			}
+			for (int i = 0; i < n; i++) {
+				for (int j = 0; j < n; j++) {
+
+					sum+=safe(k, i, j);
+				}
+			}
+			if(smax<sum) {
+			smax=sum;}
+			sum=0;
+		}
+		System.out.println(smax);
+	}
+
+	static int safe(int h, int x, int y) {
+		if ( 0<= x&&x < n && 0<=y&&y < n&&map2[x][y] > h) {
+			map2[x][y] = 0;
+			safe(h, x + 1, y);
+			safe(h, x, y + 1);
+			safe(h, x-1, y);
+			safe(h, x, y - 1);
+			cnt = 1;
+			return cnt;
+		} else {
+			
+			return 0;
+		}
+	}
+}
