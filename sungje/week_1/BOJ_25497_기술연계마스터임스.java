@@ -1,8 +1,8 @@
-package algoBOJ;
+package sungje.week_1;
 
 import java.io.*;
 
-public class Solution25497 {
+public class BOJ_25497_기술연계마스터임스 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader bfReader = new BufferedReader(new InputStreamReader(System.in));
 
