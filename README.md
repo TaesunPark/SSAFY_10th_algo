@@ -1,6 +1,12 @@
 # SSAFY_10th_algo
 대전 싸피 8반 알고리즘 스터디입니다.
 
+## 2023.08.16~2023.08.23
+1. [[BOJ] 16493. 최대 페이지 수](https://www.acmicpc.net/problem/16493)
+2. [[BOJ] 2571. 색종이 - 3](https://www.acmicpc.net/problem/2571)
+3. [[BOJ] 1965. 상자넣기](https://www.acmicpc.net/problem/1965)
+4. [[BOJ] 4963. 섬의 개수](https://www.acmicpc.net/problem/4963)
+
 ## 2023.08.09~2023.08.15
 1. [[BOJ] 16637. 괄호 추가하기](https://www.acmicpc.net/problem/16637)
 2. [[BOJ] 17070. 파이프 옮기기](https://www.acmicpc.net/problem/17070)
