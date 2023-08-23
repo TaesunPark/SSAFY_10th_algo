@@ -1,6 +1,12 @@
 # SSAFY_10th_algo
 대전 싸피 8반 알고리즘 스터디입니다.
 
+## 2023.08.23~2023.08.30
+1. [[BOJ] 2665. 미로만들기](https://www.acmicpc.net/problem/2665)
+2. [[BOJ] 9934. 완전 이진 트리](https://www.acmicpc.net/problem/9934)
+3. [[BOJ] 1141. 접두사](https://www.acmicpc.net/problem/1141)
+4. [[BOJ] 1213. 팰린드롬 만들기](https://www.acmicpc.net/problem/1213)
+
 ## 2023.08.16~2023.08.23
 1. [[BOJ] 16493. 최대 페이지 수](https://www.acmicpc.net/problem/16493)
 2. [[BOJ] 2571. 색종이 - 3](https://www.acmicpc.net/problem/2571)
